@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+ruby '2.3.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
 # Use sqlite3 as the database for Active Record
@@ -45,3 +45,21 @@ group :development do
   gem 'spring'
 end
 
+# learn-rails
+# Front-end Framework
+gem 'foundation-rails', '~> 5.5'
+# Access to the MailChimp API
+gem 'gibbon'
+# For static pages like "About"
+gem 'high_voltage'
+# Forms made easy
+gem 'simple_form'
+#
+group :development do
+  # Helps when things go wrong
+  gem 'better_errors'
+  # Supress distracting messages in the logs
+  gem 'quiet_assets'
+  # Generates files for an application layout
+  gem 'rails_layout'
+end
